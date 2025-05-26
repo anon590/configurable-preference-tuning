@@ -16,8 +16,8 @@ Code for the paper "Configurable Preference Tuning with Rubric-Guided Synthetic 
 
 The synthetic dataset used in the paper is released in the HugginfaceHub, under two different variants:
 
-* https://huggingface.co/datasets/vicgalle/creative-rubrics-preferences: this is the DPO-compatible version, in which the generations have been arranged into contrasting pairs.
-* https://huggingface.co/datasets/vicgalle/creative-rubrics-gpt-4.5-o3-R1: raw version, each row has the prompt, the rubric and the score target for the rubric, plus the response and the model used to generate it.
+* [vicgalle/creative-rubrics-preferences](https://huggingface.co/datasets/vicgalle/creative-rubrics-preferences): this is the DPO-compatible version, in which the generations have been arranged into contrasting pairs.
+* [vicgalle/creative-rubrics](https://huggingface.co/datasets/vicgalle/creative-rubrics): raw version, each row has the prompt, the rubric and the score target for the rubric, plus the response and the model used to generate it.
 
 ## Fine-tuned Models
 
