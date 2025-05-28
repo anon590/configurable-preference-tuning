@@ -21,4 +21,11 @@ The synthetic dataset used in the paper is released in the HugginfaceHub, under 
 
 ## Fine-tuned Models
 
-To be released soon...
+Several CPT-tuned models are available in the HuggingFace Hub:
+
+| Model              | Size  | Fine-tuned from |
+| ------------------ | ----- | --------------- |
+| [configurable-preference-qwen3-4b](https://huggingface.co/vicgalle/configurable-preference-qwen3-4b) | 4B    |    [Qwen3-4B](https://huggingface.co/unsloth/Qwen3-4B-unsloth-bnb-4bit)             |
+| [configurable-preference-phi4](https://huggingface.co/vicgalle/configurable-preference-phi4) | 8.5B    |    [Phi-4](https://huggingface.co/unsloth/phi-4-unsloth-bnb-4bit)             |
+| [configurable-preference-mistral-nemo-12b](https://huggingface.co/vicgalle/configurable-preference-mistral-nemo-12b) | 12B    |    [Mistral-Nemo-12B](https://huggingface.co/unsloth/Mistral-Nemo-Instruct-2407-bnb-4bit)             |
+| [configurable-preference-rocinante-12b](https://huggingface.co/vicgalle/configurable-preference-rocinante-12b) | 12B    |    [Rocinante-12B](https://huggingface.co/TheDrummer/Rocinante-12B-v1.1)            |
